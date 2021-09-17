@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <title>สมุดเล่มเล็ก เซต - จิรเมธ ทองเปลว</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Prompt', sans-serif;
+        background-image: url('https://wallpaper.dog/large/17056.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+      }
+
+      .contrainer {
+        padding: 30px;
+      }
+
+      .card-blur {
+   backdrop-filter: blur(4px);
+   background-color: rgba(0, 0, 0, 0.2);
+   border: none;
+      }
+
+      .btn-blur {
+        backdrop-filter: blur(4px);
+
+        background-color: rgba(255, 255, 255, 0.35);
+        border: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="contrainer">
+
+        <div class="col-md-5 mx-auto mb-3">
+          <div class="card card-blur text-white animate__animated animate__fadeInUp">
+            <div class="card-header text-center card-blur">
+              สมุดเล่มเล็ก <i class="fas fa-book"></i>
+            </div>
+            <div class="card-body text-center">
+              <h1 class="card card-blur card-body"><b>เรื่อง เซต <i class="fas fa-cog"></i></b></h1>
+              <div class="card card-blur card-body mb-2">
+              <h4>จัดทำโดย <i class="fas fa-user"></i></h4>
+              <h5>นาย จิรเมธ ทองเปลว <br>ม.4/2 เลขที่.1</h5>
+              </div>
+              <h5 class="card card-blur card-body">
+                  <div class="card-header">
+                    เสนอ <i class="fas fa-chalkboard-teacher"></i>
+                  </div>
+                  <b>ครู พัดชา ทิพย์ดำรงพงค์</b>
+              </h5><br>
+
+              <div class="row">
+                <div class="col">
+                  โรงเรียนท้ายหาด
+                </div>
+                <div class="col">
+                  จังหวัด สมุทรสงคราม
+                </div>
+                <div class="col">
+                  คณิตศาสตร์
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mx-auto mb-3">
+          <div class="card card-blur text-white animate__animated animate__fadeInUp">
+            <div class="card-header text-center card-blur">
+              สรุปแนวคิดหลัก <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="card-body">
+              <div class="card card-blur card-body mb-2">
+              <pre>
+1. เซต เป็นการอธิบายการรวมกันของสิ่งต่างๆ ซึ่งสามารถระบุได้ว่าสิ่งใดอยู่หรือไม่อยู่ใน
+เซตนั้นอย่างชัดเจน (well-defined) และเรียกสิ่งที่อยู่ในเซตว่า สมาชิก (element)
+2. โดยทั่วไปมีวิธีเขียนเซได้ 2 แบบ คือ
+1) การเขียนเซตเบบแจกแจงสมาชิก เช่น A = { 2,4,6,8 }
+2) การเขียนเซตแบบบอกเงื่อนไขของสมาชิก เช่น
+A = { x x เป็นจำนวนคู่บวกที่น้อยกว่า 10 }
+3. เซตจำกัด เป็นเซตที่มีจำนวนสมาชิกเท่ากับศูนย์ หรือเท่ากับจำนวนเต็มบวกใดๆ
+4. เซตอนันต์ เป็นเซตที่มีจำนวนสมาชิกมากมายนับไม่ถ้วน ซึ่งไม่สามารถบอกจำนวนสมาชิกของเซตใด
+5. เซต A เท่ากับเซต B หมายถึง สมาชิกทุกตัวของเซต A เป็นสมาชิกของเซตB
+และสมาชิกทุกตัวของเซต B เป็นสมาชิกของเซต A นั่นคือ A = B ก็ต่อเมื่อ
+A ⊂ B และ B ⊂ A
+6. เซตว่าง เป็นเซตที่ไม่มีสมาชิกอยู่เลยเขียนแทนด้วยสัญลักษณ์ { } หรือ ∅
+7. เอกภพสัมพัทธ์ คือ เซตที่ก าหนดขอบข่ายในการพิจารณาสมาชิกของเซต
+ที่กล่าวถึง เขียนแทนด้วยสัญลักษณ์ ∪
+8. การเขียนภาพเวนน์แทนเซตจะช่วยให้เข้าใจความสัมพันธ์ระหว่างเซตต่างๆ
+ได้ง่ายและชัดเจนมากขึ้น
+9. เซต A เป็นสับเซตของเซต B ก็ต่อเมื่อสมาชิกทุกตัวของเซต A เป็น
+สมาชิกของเซต B เขียนแทนด้วย A ⊂ B
+10. เซต A เป็นสับเซตแท้ของเซต B ก็ต่อเมื่อ A ⊂ B และ A ≠ B
+
+              </pre>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-md-5 mx-auto mb-3">
+          <div class="card card-blur text-white animate__animated animate__fadeInUp">
+            <div class="card-header text-center card-blur">
+              สรุปแนวคิดหลัก <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="card-body">
+              <div class="card card-blur card-body mb-2">
+              <img src="https://lh4.googleusercontent.com/y5dnap1UdONjd2kqWDtwv1Lqg91NEfWSpXiLopgAIXrtrbe5t0TcT2nOk6kR_OBLufgGu1ah_bKeLDSTDitj=w1366-h625">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 mx-auto mb-3">
+          <div class="card card-blur text-white animate__animated animate__fadeInUp">
+            <div class="card-header text-center card-blur">
+              สรุปแนวคิดหลัก <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="card-body">
+              <div class="card card-blur card-body mb-2">
+                <pre>
+11. ถ้าเซต A มีสมาชิกเท่ากับ n ตัวแล้วจำนวนสับเซตทั้งหมดของ A เท่ากับ 2 ยกก าลัง n เซต
+12. เพาเวอร์เซตของเซต A คือ เซตของสับเซตทั้งหมดของ A เขียนแทนด้วย P(A) และถ้าเซต A
+มีสมาชิกเท่ากับ n ตัว แล้วจำนวนสมาชิกของ P(A) เท่ากับ 2 ยกก าลัง n ตัว
+นั่นคือ n(P(A) = 2 ยกก าลัง n
+13. ถ้า A และ B เป็นซับเซตของเอกภพสัมพัทธ์แล้ว จะได้ว่า
+1) อินเตอร์เซกชันของเซต A และเซต B คือ เซตของสมาชิกที่ซ้ากันของเซต A และเซต B
+เขียนแทนด้วย A ⋂ B = { x x ∊ A และ x ∊ B }
+              </pre>
+              <img src="https://lh3.google.com/u/0/d/1UgAcMeA96f622NAr8yxOXdgHE_EbRtwx=w1366-h625-iv1">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mx-auto mb-3">
+          <div class="card card-blur text-white animate__animated animate__fadeInUp">
+            <div class="card-header text-center card-blur">
+              สรุปแนวคิดหลัก <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="card-body">
+              <div class="card card-blur card-body mb-2">
+                <pre>
+2) ยูเนียนของเซต A และเซต B คือ เซตของสมาชิกที่อยู่ในเซต A หรือเซต B หรือทั้ง
+สองเซต เขียนแทนด้วย A ∪ B = { x x ∊ A หรือ x ∊ B หรือ
+x เป็นสมาชิกของทั้งสองเซต }
+              </pre>
+              <img src="https://lh3.googleusercontent.com/fife/AAWUweWqAkQzaQ7FC7cVke0_2wGRwDe-0lPEQqAnG4qSCbofBDli5bVbJ-dWuU5AxSOpJtIvDRUQSNhvVp73lvMyf-0PXdXe5ylMNhXjvc-yw0mxSF7P7euxC0k4MQpaQ6h4VKda1sMiiwxfV4OVZuYNSxWHmQntfsR-u4rI87RkWVci3TseJToNxPEF-ubu-Qb3OYDod_NRQAdlWkklfoWIqqkfQkbgreKQxhcH_8Zf5dIJScH-0tP9lN9g1sh89gPVrb0JamDDLnzFEGHTGro_AMHdlYsh6P67kVwRE4uC7gl-01rio_YV8t_Yzh4tK9HtsC2_fDpHHWF4CoVWEOo_a-a5d9ZFrZd8GVhD28CbYXWKQ7WuSMDCezaRq-XcyB6cmkRE9xSWZf-zOCmj7_sbvC1dwvLTXkxNY32R3zVdf5Z6BCMu_UZ47V-lZWq6ZIuZbcz45gPk9PBNJtvPF1cVd6PTwZrVEfG6-7Q9Gr5H7TSobaWOaFjX4eroZuWi_K-14E35kwkGS7vRz91SjQv_cXtsmSs1YAxUuYmDYynnoyjs8cZX1C5RBGfqp1jNDxr_XbYKt2s86JW0h5uA3fFRvpHtWoNndZkLuwwh7-tzia2d--GBQNhrJSE7g8_w_daMTUN80QpNV1ZR8yDb3WG_bMA712nbBMp-GmwpkBEunW_kTsF56RTmj-3QL9LJSENdPHSN_JG3PKgHEU8BJiAP5UWoiRZAbJdx-w=w1012-h625-ft">
+              <hr><pre>
+3) คอมพลีเมนต์ของเซต A คือ เซตของทุกสมาชิกในเซต ∪ แต่ไม่อยู่ในเซต A
+เขียนแทนด้วย A' นั่นคือ A' = { x x ∊ ∪ และ x ∉ A }
+              </pre>
+              <img src="  https://lh3.google.com/u/0/d/13-j7gHjM-R28ipxzyMpH0sGMU_ypkcLe=w1012-h625-iv1">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mx-auto mb-3">
+          <div class="card card-blur text-white animate__animated animate__fadeInUp">
+            <div class="card-header text-center card-blur">
+              สรุปแนวคิดหลัก <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="card-body">
+              <div class="card card-blur card-body mb-2">
+                <pre>
+4) ผลต่างระหว่างเซต A และเซต B หรือคอมพลีเมนต์ของเซต B เทียบกับ
+เซต A คือ เซตที่มีสมาชิกอยู่ในเซต A แต่ไม่อยู่ในเซต B เขียนแทนด้วย
+A – B นั่นคือ A – B = { x x ∊ A และ x ∉ B }
+              </pre>
+              <img src="https://lh3.google.com/u/0/d/1LNMRm7aesQWUN7GAnf8QbsDBuFlsVV_b=w1012-h625-iv1">
+              <hr>
+              <pre>
+14. ถ้ำ A และ B เป็นเซตจ ำกัดใดๆ แล้ว จะได้ว่ำ
+n(A ∩ B) = n(A) + n(B) – n(A ∩ B)
+15. ถ้ำ A , B และ C เป็นเซตจ ำกัดใดๆ แล้ว จะได้ว่า
+(A ∪ B ∪ C) = n(A) + n(B) + n(C) – n(A ∩ B) – n(A ∩ C) – n(B ∩ C)
++ n(A ∩ B ∩ C)
+
+              </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/c679024f84.js" crossorigin="anonymous"></script>
+  </body>
+</html>
